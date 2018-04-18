@@ -6,7 +6,8 @@ namespace myFirstDNApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string something = "something";
+            Console.WriteLine($"Hello World!{something}");
         }
     }
 }
